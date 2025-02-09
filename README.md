@@ -1,13 +1,9 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "# HW 2 Project Part II\n",
-    "#### <u>Group 8: Annaston Evers, Juliette Vasquez, Madison Gaines, Mrityunjay Sivakumar, Shirley Lin, Uday Thakar, Victor Irby<u>\n",
-    "##### *An <ins>IF model</ins> is also known as an **integrate-and-fire model** that represents a neuron as an electrical circuit.*\n",
-    "##### **It depicts how the circuit receives incoming signals over time until a threshold is reached to fire and reset. This is to simulate the production of an action potential in neurons.**\n",
-    "[Link to More Info](https://neuronaldynamics.epfl.ch/online/Ch1.S3.html)\n"
-   ]
-  },
+Comparison of Models:
+
+IF models are one of the simplest neuron models. They integrate synaptic currents and fires a spike once the membrane potential reaches a predefined threshold. They then reset. These models lack a refractory period of a biological neuron as well as other chaacteristcs such as leakage and adaptation. 
+
+LIF models improve upon this by incoorporating a leak in the membrane potential. So, if no imput is recieved, the potential will gradually return to resting state. This model is more biologically acurate but still lacks a refractory period and any ion channel dynamics.
+
+A simple feedforward neural network has the ability to learn and adapt, unlike IF/LIF models. It responds directly to inputs. However, it is more difficult to make preductions compared to other biolgically inspired models. 
+
+The LIF model contains more information that the IF model since it includes the leak. The IF model is most binary given its set pattern, making it more discrete and the most concise. The FNN is the most complex and contains the most bits since it is able to store information over time.
