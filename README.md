@@ -3,8 +3,8 @@ Group 8: Annaston Evers, Juliette Vasquez, Madison Gaines, Mrityunjay Sivakumar,
 
 CODE
 
-Comparison of Models:
-
+**Comparison of Models:
+**
 IF models are one of the simplest neuron models. They integrate synaptic currents and fires a spike once the membrane potential reaches a predefined threshold. They then reset. These models lack a refractory period of a biological neuron as well as other chaacteristcs such as leakage and adaptation. 
 
 LIF models improve upon this by incoorporating a leak in the membrane potential. So, if no imput is recieved, the potential will gradually return to resting state. This model is more biologically acurate but still lacks a refractory period and any ion channel dynamics.
