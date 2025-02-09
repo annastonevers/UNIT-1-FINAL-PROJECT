@@ -22,5 +22,25 @@
     "The LIF model contains more information than the IF model since it includes the leak. The IF model is most binary given its set pattern, making it more discrete and the most concise. The FNN is the most complex and contains the most bits since it is able to store information over time."
    ]
   }
- ]
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "version": "3.7.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
 }
